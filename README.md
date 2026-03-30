@@ -1,4 +1,5 @@
-# MACDA-Github
+# MACDA：Manifold and Anchored Conditional Domain Adaptation for EEG-based MI-BCI
+produced by Zhengyang Ding, UESTC
 
 ATCNet-based EEG motor imagery experiments for cross-subject/domain transfer,
 covering baseline training and several domain adaptation methods.
