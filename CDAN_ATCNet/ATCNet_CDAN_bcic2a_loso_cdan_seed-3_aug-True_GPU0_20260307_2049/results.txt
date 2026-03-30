@@ -1,0 +1,22 @@
+Results for model: ATCNet_CDAN
+#Params: 212277
+Dataset: bcic2a_loso_cdan
+Subject IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Results for each subject:
+Subject 1 => Train Time: 10.95m, Test Time: 30.32s, Test Acc: 0.7083, Test Loss: 0.7431, Test Kappa: 0.6111
+Subject 2 => Train Time: 10.85m, Test Time: 25.97s, Test Acc: 0.5556, Test Loss: 1.1396, Test Kappa: 0.4074
+Subject 3 => Train Time: 10.86m, Test Time: 26.78s, Test Acc: 0.8576, Test Loss: 0.4035, Test Kappa: 0.8102
+Subject 4 => Train Time: 10.93m, Test Time: 27.48s, Test Acc: 0.6215, Test Loss: 0.8911, Test Kappa: 0.4954
+Subject 5 => Train Time: 10.96m, Test Time: 25.55s, Test Acc: 0.2569, Test Loss: 3.3824, Test Kappa: 0.0093
+Subject 6 => Train Time: 10.78m, Test Time: 26.48s, Test Acc: 0.5556, Test Loss: 1.1361, Test Kappa: 0.4074
+Subject 7 => Train Time: 11.33m, Test Time: 28.03s, Test Acc: 0.7847, Test Loss: 0.5682, Test Kappa: 0.7130
+Subject 8 => Train Time: 10.94m, Test Time: 25.58s, Test Acc: 0.7778, Test Loss: 0.5733, Test Kappa: 0.7037
+Subject 9 => Train Time: 10.89m, Test Time: 27.52s, Test Acc: 0.6319, Test Loss: 1.0129, Test Kappa: 0.5093
+
+--- Summary Statistics ---
+Average Test Accuracy: 63.89 ¡À 16.78
+Average Test Kappa:    0.519 ¡À 0.224
+Average Test Loss:     1.094 ¡À 0.846
+Total Training Time: 98.49 min
+Average Response Time: 9.31 ms

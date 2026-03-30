@@ -1,0 +1,22 @@
+Results for model: ATCNet_MI_DABAN
+#Params: 286774
+Dataset: bcic2a_loso_cdan
+Subject IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Results for each subject:
+Subject 1 => Train Time: 10.86m, Test Time: 19.38s, Test Acc: 0.6701, Test Loss: 0.7774, Test Kappa: 0.5602
+Subject 2 => Train Time: 11.12m, Test Time: 19.39s, Test Acc: 0.5139, Test Loss: 1.3240, Test Kappa: 0.3519
+Subject 3 => Train Time: 10.74m, Test Time: 19.44s, Test Acc: 0.8750, Test Loss: 0.4204, Test Kappa: 0.8333
+Subject 4 => Train Time: 10.91m, Test Time: 18.19s, Test Acc: 0.6424, Test Loss: 0.9156, Test Kappa: 0.5231
+Subject 5 => Train Time: 10.68m, Test Time: 19.07s, Test Acc: 0.2500, Test Loss: 3.6985, Test Kappa: 0.0000
+Subject 6 => Train Time: 10.66m, Test Time: 17.94s, Test Acc: 0.4931, Test Loss: 1.2560, Test Kappa: 0.3241
+Subject 7 => Train Time: 10.67m, Test Time: 17.67s, Test Acc: 0.8056, Test Loss: 0.5409, Test Kappa: 0.7407
+Subject 8 => Train Time: 10.67m, Test Time: 16.88s, Test Acc: 0.7708, Test Loss: 0.5918, Test Kappa: 0.6944
+Subject 9 => Train Time: 10.65m, Test Time: 16.88s, Test Acc: 0.5764, Test Loss: 1.0159, Test Kappa: 0.4352
+
+--- Summary Statistics ---
+Average Test Accuracy: 62.19 ¡À 17.99
+Average Test Kappa:    0.496 ¡À 0.240
+Average Test Loss:     1.171 ¡À 0.940
+Total Training Time: 96.96 min
+Average Response Time: 9.47 ms
