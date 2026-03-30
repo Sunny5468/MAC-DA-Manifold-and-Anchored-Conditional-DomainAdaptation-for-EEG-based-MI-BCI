@@ -1,0 +1,77 @@
+# DANN Configuration (for ATCNet backbone)
+# 说明：当前仓库尚未接入 DANN 训练流程，此配置文件用于在现有配置框架下预置参数。
+# 若后续新增 --dann 分支，可直接复用该配置结构。
+
+# general
+dataset_name: ""
+subject_ids: "all"
+max_epochs: 1000
+max_epochs_loso: 125
+seed: 0
+
+# preprocessing
+z_scale: True
+interaug: True
+preprocessing:
+  bcic2a:
+    sfreq: 250
+    low_cut: null
+    high_cut: null
+    start: -0.5
+    stop: 0.0
+    batch_size: 48
+  weibo2014:
+    sfreq: 250
+    low_cut: null
+    high_cut: null
+    start: -0.5
+    stop: 0.0
+    batch_size: 48
+    test_ratio: 0.3
+    split_seed: 42
+
+# model
+model: "ATCNet"
+model_kwargs:
+  F1: 16
+  kernel_length_conv: 64
+  pool_length: 8
+  D: 2
+  dropout_conv: 0.3
+  d_model: 32
+  key_dim: 8
+  n_head: 2
+  dropout_attn: 0.5
+  tcn_depth: 2
+  kernel_length_tcn: 4
+  dropout_tcn: 0.3
+  n_windows: 5
+
+  lr: 0.0009
+  beta_1: 0.5
+  beta_2: 0.999
+  weight_decay: 0.001
+  optimizer: "adam"
+  scheduler: True
+  warmup_epochs: 20
+  warmup_epochs_loso: 3
+
+# DANN specific parameters
+# 设计目标：稳定收敛 + 与当前 CDAN 实验可比
+# - 仅做域对抗，不加熵最小化/对比项
+# - 使用 lambda 调度提高训练稳定性
+# - 判别器规模中等，避免过强导致特征提取器训练不稳
+dann_kwargs:
+  discriminator_hidden_dim: 256
+  discriminator_num_layers: 2
+  discriminator_dropout: 0.5
+
+  lambda_domain: 1.0
+  lambda_schedule: True
+
+  # DANN 不使用熵条件项
+  lambda_entropy: 0.0
+  use_entropy_conditioning: False
+
+  # 判别器学习率为空时跟随主学习率
+  lr_discriminator: null
