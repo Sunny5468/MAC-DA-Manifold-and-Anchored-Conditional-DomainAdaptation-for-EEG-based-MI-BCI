@@ -1,0 +1,22 @@
+Results for model: ATCNet_DeepCORAL
+#Params: 113204
+Dataset: bcic2a_loso_cdan
+Subject IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Results for each subject:
+Subject 1 => Train Time: 11.37m, Test Time: 23.28s, Test Acc: 0.7361, Test Loss: 0.7326, Test Kappa: 0.6481
+Subject 2 => Train Time: 15.35m, Test Time: 24.86s, Test Acc: 0.5243, Test Loss: 1.1728, Test Kappa: 0.3657
+Subject 3 => Train Time: 36.33m, Test Time: 21.58s, Test Acc: 0.9062, Test Loss: 0.4193, Test Kappa: 0.8750
+Subject 4 => Train Time: 13.70m, Test Time: 19.53s, Test Acc: 0.6215, Test Loss: 0.9001, Test Kappa: 0.4954
+Subject 5 => Train Time: 13.54m, Test Time: 19.84s, Test Acc: 0.6319, Test Loss: 0.8859, Test Kappa: 0.5093
+Subject 6 => Train Time: 13.42m, Test Time: 17.90s, Test Acc: 0.5660, Test Loss: 1.0656, Test Kappa: 0.4213
+Subject 7 => Train Time: 13.21m, Test Time: 20.11s, Test Acc: 0.7882, Test Loss: 0.5972, Test Kappa: 0.7176
+Subject 8 => Train Time: 12.92m, Test Time: 17.14s, Test Acc: 0.8021, Test Loss: 0.5829, Test Kappa: 0.7361
+Subject 9 => Train Time: 13.00m, Test Time: 18.97s, Test Acc: 0.5868, Test Loss: 1.0115, Test Kappa: 0.4491
+
+--- Summary Statistics ---
+Average Test Accuracy: 68.48 ¡À 12.13
+Average Test Kappa:    0.580 ¡À 0.162
+Average Test Loss:     0.819 ¡À 0.237
+Total Training Time: 142.83 min
+Average Response Time: 12.35 ms

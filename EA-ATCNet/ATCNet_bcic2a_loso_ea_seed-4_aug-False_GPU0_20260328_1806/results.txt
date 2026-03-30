@@ -1,0 +1,22 @@
+Results for model: ATCNet
+#Params: 113204
+Dataset: bcic2a_loso_ea
+Subject IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Results for each subject:
+Subject 1 => Train Time: 5.96m, Test Time: 19.46s, Test Acc: 0.7535, Test Loss: 0.6873, Test Kappa: 0.6713
+Subject 2 => Train Time: 6.19m, Test Time: 19.43s, Test Acc: 0.4097, Test Loss: 1.6773, Test Kappa: 0.2130
+Subject 3 => Train Time: 6.24m, Test Time: 18.64s, Test Acc: 0.8264, Test Loss: 0.4194, Test Kappa: 0.7685
+Subject 4 => Train Time: 6.27m, Test Time: 18.71s, Test Acc: 0.5451, Test Loss: 1.2565, Test Kappa: 0.3935
+Subject 5 => Train Time: 6.24m, Test Time: 18.96s, Test Acc: 0.5347, Test Loss: 1.3547, Test Kappa: 0.3796
+Subject 6 => Train Time: 6.28m, Test Time: 20.16s, Test Acc: 0.5243, Test Loss: 1.4081, Test Kappa: 0.3657
+Subject 7 => Train Time: 6.15m, Test Time: 18.26s, Test Acc: 0.7708, Test Loss: 0.5757, Test Kappa: 0.6944
+Subject 8 => Train Time: 6.29m, Test Time: 19.86s, Test Acc: 0.7569, Test Loss: 0.6028, Test Kappa: 0.6759
+Subject 9 => Train Time: 6.25m, Test Time: 20.93s, Test Acc: 0.5903, Test Loss: 1.0642, Test Kappa: 0.4537
+
+--- Summary Statistics ---
+Average Test Accuracy: 63.46 ¡À 13.63
+Average Test Kappa:    0.513 ¡À 0.182
+Average Test Loss:     1.005 ¡À 0.421
+Total Training Time: 55.88 min
+Average Response Time: 9.46 ms
