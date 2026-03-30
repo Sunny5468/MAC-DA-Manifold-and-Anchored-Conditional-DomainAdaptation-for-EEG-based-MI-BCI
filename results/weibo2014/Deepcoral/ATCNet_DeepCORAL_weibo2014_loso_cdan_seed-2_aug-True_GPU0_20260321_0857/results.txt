@@ -1,0 +1,23 @@
+Results for model: ATCNet_DeepCORAL
+#Params: 113204
+Dataset: weibo2014_loso_cdan
+Subject IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Results for each subject:
+Subject 1 => Train Time: 6.92m, Test Time: 3.24s, Test Acc: 0.3229, Test Loss: 1.5835, Test Kappa: 0.0972
+Subject 2 => Train Time: 6.98m, Test Time: 1.47s, Test Acc: 0.4792, Test Loss: 1.2369, Test Kappa: 0.3056
+Subject 3 => Train Time: 7.49m, Test Time: 1.55s, Test Acc: 0.3750, Test Loss: 1.4322, Test Kappa: 0.1667
+Subject 4 => Train Time: 9.97m, Test Time: 1.63s, Test Acc: 0.4688, Test Loss: 1.2735, Test Kappa: 0.2917
+Subject 5 => Train Time: 10.04m, Test Time: 1.47s, Test Acc: 0.3229, Test Loss: 1.6115, Test Kappa: 0.0972
+Subject 6 => Train Time: 10.04m, Test Time: 1.49s, Test Acc: 0.6548, Test Loss: 0.8268, Test Kappa: 0.5397
+Subject 7 => Train Time: 10.03m, Test Time: 1.70s, Test Acc: 0.5417, Test Loss: 1.1216, Test Kappa: 0.3889
+Subject 8 => Train Time: 9.99m, Test Time: 2.91s, Test Acc: 0.4479, Test Loss: 1.2662, Test Kappa: 0.2639
+Subject 9 => Train Time: 10.01m, Test Time: 1.56s, Test Acc: 0.6042, Test Loss: 0.9861, Test Kappa: 0.4722
+Subject 10 => Train Time: 10.23m, Test Time: 1.84s, Test Acc: 0.3958, Test Loss: 1.4686, Test Kappa: 0.1944
+
+--- Summary Statistics ---
+Average Test Accuracy: 46.13 ¡À 10.72
+Average Test Kappa:    0.282 ¡À 0.143
+Average Test Loss:     1.281 ¡À 0.241
+Total Training Time: 91.69 min
+Average Response Time: 10.07 ms

@@ -1,0 +1,23 @@
+Results for model: ATCNet_CDAN
+#Params: 212277
+Dataset: weibo2014_loso_cdan
+Subject IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Results for each subject:
+Subject 1 => Train Time: 5.82m, Test Time: 1.65s, Test Acc: 0.3542, Test Loss: 1.8093, Test Kappa: 0.1389
+Subject 2 => Train Time: 5.87m, Test Time: 1.54s, Test Acc: 0.5417, Test Loss: 1.1712, Test Kappa: 0.3889
+Subject 3 => Train Time: 6.15m, Test Time: 1.44s, Test Acc: 0.3438, Test Loss: 1.6144, Test Kappa: 0.1250
+Subject 4 => Train Time: 5.85m, Test Time: 1.73s, Test Acc: 0.4896, Test Loss: 1.2287, Test Kappa: 0.3194
+Subject 5 => Train Time: 5.94m, Test Time: 2.08s, Test Acc: 0.4479, Test Loss: 1.3650, Test Kappa: 0.2639
+Subject 6 => Train Time: 5.87m, Test Time: 1.47s, Test Acc: 0.6429, Test Loss: 0.9194, Test Kappa: 0.5238
+Subject 7 => Train Time: 5.85m, Test Time: 1.82s, Test Acc: 0.5208, Test Loss: 1.0437, Test Kappa: 0.3611
+Subject 8 => Train Time: 6.16m, Test Time: 1.67s, Test Acc: 0.5938, Test Loss: 1.0835, Test Kappa: 0.4583
+Subject 9 => Train Time: 5.82m, Test Time: 1.68s, Test Acc: 0.5729, Test Loss: 1.0980, Test Kappa: 0.4306
+Subject 10 => Train Time: 5.97m, Test Time: 1.62s, Test Acc: 0.4167, Test Loss: 1.4774, Test Kappa: 0.2222
+
+--- Summary Statistics ---
+Average Test Accuracy: 49.24 ¡À 9.57
+Average Test Kappa:    0.323 ¡À 0.128
+Average Test Loss:     1.281 ¡À 0.266
+Total Training Time: 59.28 min
+Average Response Time: 9.31 ms
